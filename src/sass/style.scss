@@ -1,0 +1,25 @@
+@import 'base/variables.scss';
+
+* {
+    font-family: Arial;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1080px;
+    
+}
+.wrapper {
+    display: flex;
+}
+
+
+@import 'blocks/side.scss';
+@import 'blocks/main.scss';
+@import 'blocks/slider.scss';
+@import 'blocks/tabs.scss';
+@import 'blocks/form.scss';
+@import 'blocks/gallery.scss';
+@import 'blocks/footer.scss';
+
+
+@import 'base/media.scss';

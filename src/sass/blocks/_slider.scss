@@ -1,0 +1,32 @@
+.slider {
+    
+    &_item {
+        min-height: 450px;
+        background: url('../img/image/baner.jpg') center (center/cover) no-repeat;
+    padding: 280px 0 0 0;
+    }
+    &_title {
+        min-height: 50px;
+        width: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    &_description {
+        min-height: 45px;
+        width: 490px;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background-color: #000;
+    }
+}
