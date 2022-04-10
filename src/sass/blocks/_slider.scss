@@ -1,10 +1,26 @@
 .slider {
-    
+    &_wrapper {
+        display: none;
+    }
     &_item {
         min-height: 450px;
-        background: url('../img/image/baner.jpg') center (center/cover) no-repeat;
-    padding: 280px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        padding: 280px 0 0 0;
+        &:nth-child(1) {
+            background: url('../img/image/slider/tastemakers.jpg') center (center/cover) no-repeat;
+        }
+        &:nth-child(2) {
+            background: url('../img/image/slider/blog.jpg') center (center/cover) no-repeat;
+        }
+        &:nth-child(3) {
+            background: url('../img/image/slider/list.jpg') center (center/cover) no-repeat;
+        }
+        &:nth-child(4) {
+            background: url('../img/image/slider/baner.jpg') center (center/cover) no-repeat;
+        }
     }
+    
     &_title {
         min-height: 50px;
         width: 270px;
